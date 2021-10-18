@@ -1,39 +1,28 @@
-#Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-release.properties
-
 # Eclipse
-.project
 .classpath
+.project
 .settings/
-bin/
 
-# IntelliJ
-.idea
-*.ipr
+# Intellij
+.idea/
 *.iml
 *.iws
 
-# NetBeans
-nb-configuration.xml
+resources/
+**/resources/**
+*.properties
 
-# Visual Studio Code
-.vscode
-.factorypath
+# Maven
+log/
+target/
 
-# OSX
-.DS_Store
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
-# Vim
-*.swp
-*.swo
-
-# patch
-*.orig
-*.rej
-
-# Local environment
-.env
+# Local History for Visual Studio Code
+.history/
